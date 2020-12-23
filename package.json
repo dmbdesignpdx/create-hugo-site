@@ -1,0 +1,16 @@
+{
+  "name": "create-hugo-site",
+  "version": "0.0.1",
+  "description": "Create a Hugo site scafold with SCSS, TypeScript, and Dato CMS",
+  "main": "index.js",
+  "homepage": "",
+  "repository": "",
+  "author": "Daniel Blake <daniel@danielblake.design>",
+  "license": "UNLICENSED",
+  "private": true,
+  "preferGlobal": true,
+  "files": ["index.js", "lib/*", "helpers/*"],
+  "bin": {
+    "create-hugo-site": "./index.js"
+  }
+}

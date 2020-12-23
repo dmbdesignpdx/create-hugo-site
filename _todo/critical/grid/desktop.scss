@@ -1,0 +1,11 @@
+[data-wrap],
+[data-grid] {
+  width: 84%;
+  max-width: 1436px;
+  padding: 0 30px;
+}
+
+[data-grid] {
+  grid-column-gap: 30px;
+  column-gap: 30px;
+}

@@ -1,0 +1,41 @@
+%Playfair {
+  font-family: Playfair, serif;
+}
+
+%OpenSans {
+  font-family: OpenSans, serif;
+}
+
+
+%hidden {
+  overflow: hidden;
+}
+
+%layout {
+  contain: layout;
+}
+
+%strict {
+  contain: strict;
+}
+
+%content {
+  contain: content;
+}
+
+%visibility-auto {
+  content-visibility: auto;
+}
+
+%wrap {
+  @include flex-wrap(wrap);
+}
+
+%pseudo-content {
+  content: '';
+}
+
+
+%fragment {
+  @include p-top(100px);
+}

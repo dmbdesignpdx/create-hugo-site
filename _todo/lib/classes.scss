@@ -1,0 +1,22 @@
+/* Long bodies of text */
+.long {
+  text-rendering: optimizeSpeed;
+}
+
+/* Clear Float */
+.clearme {
+  clear: both;
+}
+
+/* No break */
+.nobr {
+  white-space: nowrap;
+}
+
+/* Screen Readers */
+.outlined,
+.graphical span {
+  @include wh(1px);
+  position: absolute;
+  overflow: hidden;
+}

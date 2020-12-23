@@ -1,0 +1,13 @@
+[data-wrap],
+[data-grid] {
+  width: 100%;
+  padding: 0 18px;
+  margin: 0 auto;
+}
+
+[data-grid] {
+  display: grid;
+  grid: auto / repeat(12, 1fr);
+  grid-column-gap: 18px;
+  column-gap: 18px;
+}

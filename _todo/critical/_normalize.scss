@@ -1,0 +1,98 @@
+@-ms-viewport {
+  width: device-width;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font: 400 18px 'Your Font', sans-serif
+  /*
+    'Apple Color Emoji', 'Segoe UI Emoji'
+   */;
+}
+
+body {
+  -ms-text-size-adjust: none;  /* Edge, IE Mobile */
+  -moz-text-size-adjust: none;  /* Firefox Android */
+  -webkit-text-size-adjust: none;  /* iOS Safari 5+ */
+  text-size-adjust: none;
+  -ms-touch-action: manipulation;  /* IE 10 */
+  touch-action: manipulation;
+  -webkit-overflow-scrolling: touch;
+  -moz-osx-font-smoothing: grayscale;  /* Firefox Mac OS */
+  -webkit-font-smoothing: antialiased; /* Chrome, Safari Mac OS */
+  -webkit-tap-highlight-color: transparent;
+  -ms-overflow-style: -ms-autohiding-scrollbar; /* Mimic Mac OS for Windows */
+}
+
+input,
+select,
+button,
+textarea {
+  font: inherit;
+}
+
+main, /* IE 10 */
+details, /* IE, Edge */
+video,
+img,
+object,
+svg,
+iframe,
+embed {
+  display: block;
+}
+
+summary {
+  display: list-item; /* 'block' breaks in Firefox */
+}
+
+a {
+  font-weight: 700;
+  color: inherit;
+  white-space: nowrap;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+select,
+button,
+[role=button] {
+  cursor: pointer;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1.2;
+  text-rendering: geometricPrecision;
+}
+
+p {
+  letter-spacing: 0.01em;
+  line-height: 1.5;
+  -ms-hyphens: none;  /* IE 10+, Edge */
+  -moz-hyphens: none;  /* Firefox < 45 */
+  -webkit-hyphens: none;  /* Safari 5+ */
+  hyphens: none;
+  /* Note: a 'lang' attr has to be defined in the <html> to use hyphens */
+}
+
+
+:focus {
+  outline: 0;
+}
+
+::-moz-focus-inner {
+  border: 0;
+}
